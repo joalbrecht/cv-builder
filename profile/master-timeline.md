@@ -33,7 +33,7 @@
 - Delivered internal presentations and knowledge sharing sessions at conferences and internal forums
 
 ### Data Engineer
-**scoutbee** | Jun 2023 – Jan 2026 (2 yrs 8 mos)
+**scoutbee** | Jun 2023 – Feb 2026 (2 yrs 9 mos)
 
 - Designed, deployed, and managed scalable AWS infrastructure, ensuring high availability and security for data engineering workflows
 - Developed and optimized end-to-end data pipelines using Apache Airflow, automating ETL processes for efficient data extraction, transformation, and loading
