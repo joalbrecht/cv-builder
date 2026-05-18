@@ -1,44 +1,60 @@
 # CV Builder — Jonas Albrecht
 
-This repository contains Jonas's resume library and AI-powered resume tailoring setup.
+AI-powered resume generation system. The flow: **master timeline → tailored CV output**.
 
-## Purpose
+## How It Works
 
-Generate tailored, job-specific resumes using the `resume-tailoring` skill. Resumes are stored in `resumes/` as markdown files and used as the source library.
+```
+profile/master-timeline.md   ← single source of truth (all experience, never cut)
+         ↓
+  resume-tailoring skill     ← reads master-timeline as library
+         ↓
+  resumes/                   ← generated outputs
+    short/                   # 1-page resume
+    full/                    # extensive / academic-style CV
+    tailored/                # job-specific tailored resumes
+```
+
+## Usage
+
+| Goal | How |
+|------|-----|
+| Tailor resume to a job | Provide job description or URL → skill auto-runs |
+| Generate 1-page short CV | Ask: "generate a short 1-page resume from my timeline" |
+| Generate extensive CV | Ask: "generate my full CV" |
+| Update experience | Edit `profile/master-timeline.md` directly |
+
+The skill reads `profile/master-timeline.md` as its resume library source.
 
 ## Repository Structure
 
 ```
-resumes/          # Markdown resume library (source of truth for experience)
-  base-resume.md  # Full master resume — all experience, never cut
-  tailored/       # Job-specific tailored resumes (generated output)
-docs/             # Supporting research, notes
+profile/
+  master-timeline.md    # Complete experience history — source of truth
+resumes/
+  short/                # 1-page resume outputs
+  full/                 # Extensive CV outputs
+  tailored/             # Job-tailored resume outputs (gitignored)
+docs/                   # Research notes, job descriptions
 .claude/
   skills/
-    resume-tailoring/  # AI resume tailoring skill
+    resume-tailoring/   # AI tailoring skill (varunr89/resume-tailoring-skill)
 ```
-
-## How to Use
-
-To tailor a resume for a job:
-1. Provide the job description (text or URL)
-2. Run `/resume-tailoring` (or just describe the job — the skill auto-triggers)
-3. Follow the guided workflow: research → template → discovery → generate
-
-The skill reads from `resumes/` as its library. Always keep `base-resume.md` complete.
 
 ## Personal Info
 
 - **Name:** Jonas Albrecht
-- **Email:** jonas.albrecht@rub.de
+- **Email:** jonas@jonas-albrecht.com
 - **LinkedIn:** linkedin.com/in/albrechtjonas
 - **GitHub:** github.com/joalbrecht
 - **Location:** Germany
 
 ## Notes for AI
 
-- Resume library is in `resumes/` — default skill path
-- `base-resume.md` is the master source with ALL experience; never trim it
-- Tailored outputs go in `resumes/tailored/`
-- Jonas has a dual background: mechanical/sales engineering + computer science + data engineering
-- Current role at scoutbee needs updated dates (resume is from Dec 2024; today is May 2026)
+- Master timeline is at `profile/master-timeline.md` — point skill library path here
+- `master-timeline.md` contains ALL experience including side projects and freelance work
+- Never trim or summarize `master-timeline.md` — it is the raw input, not a resume
+- Current primary role: Software Engineer at Zalando SE (Feb 2026–present)
+- Parallel activities: Sportellino co-founder, Pitch Wars creator, IT admin for Albrecht Indutherm GmbH
+- Background spans: mechanical engineering → sales engineering → data engineering → software engineering
+- Two BSc degrees: Computer Science (HU Berlin, 2023) + Sales Engineering & Product Mgmt (RUB, 2018)
