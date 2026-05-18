@@ -171,7 +171,7 @@ def build_short(out_path):
     # Profile
     story += section("Profile")
     story.append(Paragraph(
-        "Engineer with a full range of experience — from designing CRM systems and leading customer-facing "
+        "Engineer with a full range of experience: from designing CRM systems and leading customer-facing "
         "business processes, to building large-scale data infrastructure and high-throughput pipelines as "
         "a technical individual contributor. Currently at Zalando SE across data platforms, DevOps, and "
         "cross-team technical projects. Early adopter of agentic AI development. "
@@ -185,10 +185,10 @@ def build_short(out_path):
     story.append(job_block(
         "Software Engineer", "Zalando SE", "Feb 2026 – Present",
         bullets=[
-            "Designed and operated large-scale, high-throughput data pipelines with Airflow and Databricks — up to 50% efficiency improvement",
+            "Designed and operated large-scale, high-throughput data pipelines with Airflow and Databricks, improving efficiency by up to 50%",
             "Led cross-team data foundation project for an applied science CRM initiative spanning 2 departments",
             "Engineered data platforms on AWS CloudFormation with IaC; established CI/CD pipelines increasing release velocity",
-            "Early adopter of agentic AI workflows — measurably raised personal output; trained team on AI-assisted development practices",
+            "Early adopter of agentic AI workflows, measurably raising personal output; trained team on AI-assisted development practices",
             "On-call engineer 24/7; growing DevOps ownership across platform infrastructure",
         ]
     ))
@@ -197,7 +197,7 @@ def build_short(out_path):
         "Data Engineer", "scoutbee", "Oct 2021 – Feb 2026",
         sub="Part-time until Jun 2023, then full-time",
         bullets=[
-            "Architected the company's AWS data platform (Airflow, S3, Lambda, SQS, Neo4j) — scaled from initial setup to serving all departments",
+            "Architected the company's AWS data platform (Airflow, S3, Lambda, SQS, Neo4j), scaling from initial setup to serving all departments",
             "Implemented Neo4j graph database layer modelling complex supplier networks; optimised query performance and data integrity",
             "Built self-serve analytics via Superset; published white papers from internal data analyses",
             "Administered Salesforce CRM, automated processes with Pardot, and visualised insights in Tableau",
@@ -208,7 +208,7 @@ def build_short(out_path):
     story.append(job_block(
         "Customer Success Engineer", "KREATIZE GmbH · Berlin", "Nov 2018 – Jun 2020",
         bullets=[
-            "Technical consultant for a digital manufacturing platform — applied mechanical engineering domain knowledge to guide customers from RFQ through delivery",
+            "Technical consultant for a digital manufacturing platform, applying mechanical engineering domain knowledge to guide customers from RFQ through delivery",
             "Bridge between customer operations and technical product: diagnosed complex process issues and drove solutions",
             "Built Salesforce and Looker dashboards to surface process improvements for operations and sales leadership",
             "Presented at Hannover Messe and industry fairs to engineering-literate audiences",
@@ -219,11 +219,11 @@ def build_short(out_path):
     story += section("Projects & Ventures")
     for name, role, desc in [
         ("Sportellino", "Co-Founder & Board Member · Mar 2026–present",
-         "AI chatbot helping foreigners in Italy navigate bureaucracy (permits, healthcare, civil registration) — leading QA and conversational development · sportellino.it"),
+         "AI chatbot helping foreigners in Italy navigate bureaucracy (permits, healthcare, civil registration): leading QA and conversational development · sportellino.it"),
         ("Pitch Wars", "Creator & Solo Developer · Mar 2026–present",
-         "Built a full fantasy football manager game end-to-end — logic, backend, infra, and design, solo · pitch-wars.com"),
+         "Built a full fantasy football manager game end-to-end: logic, backend, infra, and design, solo · pitch-wars.com"),
         ("Albrecht Indutherm GmbH", "IT Administrator (Freelance) · Feb 2025–present",
-         "Sole IT responsible — Microsoft 365, web hosting, security management"),
+         "Sole IT responsible: Microsoft 365, web hosting, security management"),
     ]:
         story.append(KeepTogether([
             Table([[Paragraph(name, S["proj_co"]), Paragraph(role, S["date"])]],
@@ -341,12 +341,12 @@ def build_full(out_path):
     # Profile
     story += section("Profile")
     story.append(Paragraph(
-        "Engineer with a full range of experience — from designing CRM systems and leading "
+        "Engineer with a full range of experience: from designing CRM systems and leading "
         "customer-facing business processes, to building large-scale data infrastructure and "
         "high-throughput pipelines as a technical individual contributor. Currently at Zalando SE "
         "spanning data platform engineering, DevOps, and cross-team technical leadership. "
         "Early adopter of agentic AI development. Dual degree in Computer Science (HU Berlin) "
-        "and Sales Engineering & Product Management (RUB Bochum). "
+        "and Sales Engineering &amp; Product Management (RUB Bochum). "
         "Active entrepreneur and independent builder alongside professional work.",
         S["body"]))
     story.append(Spacer(1, 4))
@@ -357,10 +357,10 @@ def build_full(out_path):
     story.append(job_block(
         "Software Engineer", "Zalando SE · Berlin/Remote", "Feb 2026 – Present",
         bullets=[
-            "Designed, built, and operated large-scale, high-throughput data pipelines using Apache Airflow and Databricks — up to 50% efficiency gain at scale",
+            "Designed, built, and operated large-scale, high-throughput data pipelines using Apache Airflow and Databricks, improving efficiency by up to 50% at scale",
             "Led cross-team data foundation project for an applied science CRM initiative spanning 2 departments and multiple teams",
             "Engineered secure data platforms on AWS CloudFormation with IaC; established end-to-end CI/CD pipelines increasing release reliability and velocity",
-            "Early adopter of agentic AI workflows — significantly raised personal output; trained team on AI-assisted development, reducing worktime while maintaining output quality",
+            "Early adopter of agentic AI workflows, significantly raising personal output; trained team on AI-assisted development, reducing worktime while maintaining output quality",
             "On-call engineer 24/7; onboarded teams onto Databricks Unity Catalog; delivered internal presentations at conferences and knowledge sharing forums",
         ]
     ))
@@ -369,7 +369,7 @@ def build_full(out_path):
         "Data Engineer", "scoutbee · Remote", "Oct 2021 – Feb 2026",
         sub="Part-time until Jun 2023, then full-time",
         bullets=[
-            "Architected and maintained the company's core AWS data platform (Airflow, S3, Lambda, SQS) — from initial data source connections to serving all departments at scale",
+            "Architected and maintained the company's core AWS data platform (Airflow, S3, Lambda, SQS), growing from initial data source connections to serving all departments at scale",
             "Implemented and optimised Neo4j graph databases representing complex supplier relationship networks; ensured data quality across all teams",
             "Built self-serve analytics stack via Apache Superset; connected external data sources to the DWH; published internal white papers from data analyses",
             "Administered Salesforce CRM, automated business processes with Pardot, and built data visualisations in Tableau to support commercial teams",
@@ -389,14 +389,14 @@ def build_full(out_path):
     story.append(job_block(
         "Customer Insights & Analytics (Working Student)", "scoutbee", "Jun 2020 – Sep 2020",
         bullets=[
-            "First role at scoutbee — supported the customer insights and analytics team",
+            "First role at scoutbee; supported the customer insights and analytics team",
         ]
     ))
 
     story.append(job_block(
         "Customer Success Engineer", "KREATIZE GmbH · Berlin", "Nov 2018 – Jun 2020",
         bullets=[
-            "Technical consultant for a digital manufacturing platform — applied mechanical engineering domain expertise to advise customers from RFQ through delivery",
+            "Technical consultant for a digital manufacturing platform, applying mechanical engineering domain expertise to advise customers from RFQ through delivery",
             "Bridge between customer operations and technical product: diagnosed complex manufacturing process issues and drove solutions across teams",
             "Built data visualisations in Salesforce and Looker to surface process improvements for operations and sales leadership",
             "Presented at Hannover Messe and industry fairs to engineering-literate audiences",
@@ -412,7 +412,7 @@ def build_full(out_path):
     ))
 
     story.append(job_block(
-        "Working Student & Intern — Key Account Sales", "innogy SE · Dortmund", "Sep 2017 – Dec 2017",
+        "Working Student &amp; Intern, Key Account Sales", "innogy SE · Dortmund", "Sep 2017 – Dec 2017",
         bullets=[
             "Consulted customers on product decisions and contract design; supported customer acquisition in cooperation with product management",
         ]
@@ -438,7 +438,7 @@ def build_full(out_path):
     story.append(job_block(
         "Co-Founder & Board Member", "Sportellino · sportellino.it", "Mar 2026 – Present",
         bullets=[
-            "Co-founded an AI-powered chatbot helping foreigners in Italy navigate bureaucracy — residence permits, healthcare, civil registration",
+            "Co-founded an AI-powered chatbot helping foreigners in Italy navigate bureaucracy: residence permits, healthcare, civil registration",
             "Responsible for Quality Control and Conversational Analytics",
             "Leading chatbot development; product is free, anonymous, and available in multiple languages",
         ]
@@ -458,7 +458,7 @@ def build_full(out_path):
     story.append(job_block(
         "IT Administrator", "Albrecht Indutherm GmbH · albrecht-indutherm.com", "Feb 2025 – Present",
         bullets=[
-            "Sole IT responsible — Microsoft 365 administration, website deployment and hosting, security management",
+            "Sole IT responsible: Microsoft 365 administration, website deployment and hosting, security management",
         ]
     ))
 
