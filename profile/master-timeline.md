@@ -115,9 +115,9 @@
 ### Co-Founder & Board Member
 **Sportellino** | Mar 2026 – Present · Italy/Remote
 
-- Co-founded an Italian sports tech company
+- Co-founded an AI-powered chatbot helping foreigners in Italy navigate bureaucracy — residence permits, healthcare, civil registration
 - Responsible for Quality Control and Conversational Analytics
-- Leading development of an AI-powered chatbot for the platform
+- Leading chatbot development; product is free, anonymous, and available in multiple languages
 - URL: https://sportellino.it/en/home-english/
 
 ### Creator & Solo Developer

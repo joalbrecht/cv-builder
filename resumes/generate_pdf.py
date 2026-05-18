@@ -219,7 +219,7 @@ def build_short(out_path):
     story += section("Projects & Ventures")
     for name, role, desc in [
         ("Sportellino", "Co-Founder & Board Member · Mar 2026–present",
-         "Italian sports tech startup — leading QA and AI-powered chatbot development · sportellino.it"),
+         "AI chatbot helping foreigners in Italy navigate bureaucracy (permits, healthcare, civil registration) — leading QA and conversational development · sportellino.it"),
         ("Pitch Wars", "Creator & Solo Developer · Mar 2026–present",
          "Built a full fantasy football manager game end-to-end — logic, backend, infra, and design, solo · pitch-wars.com"),
         ("Albrecht Indutherm GmbH", "IT Administrator (Freelance) · Feb 2025–present",
@@ -438,9 +438,9 @@ def build_full(out_path):
     story.append(job_block(
         "Co-Founder & Board Member", "Sportellino · sportellino.it", "Mar 2026 – Present",
         bullets=[
-            "Co-founded an Italian sports tech startup",
+            "Co-founded an AI-powered chatbot helping foreigners in Italy navigate bureaucracy — residence permits, healthcare, civil registration",
             "Responsible for Quality Control and Conversational Analytics",
-            "Leading development of an AI-powered chatbot for the platform",
+            "Leading chatbot development; product is free, anonymous, and available in multiple languages",
         ]
     ))
 
