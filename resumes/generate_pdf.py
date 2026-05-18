@@ -218,8 +218,8 @@ def build_short(out_path):
     # Projects
     story += section("Projects & Ventures")
     for name, role, desc in [
-        ("Sportellino", "Co-Founder & Board Member · Mar 2026–present",
-         "AI chatbot helping foreigners in Italy navigate bureaucracy (permits, healthcare, civil registration): leading QA and conversational development · sportellino.it"),
+        ("Sportellino", "Co-Founder & Board Member · Mar 2026–present · sportellino.it",
+         "AI chatbot helping foreigners in Italy navigate bureaucracy (permits, healthcare, civil registration): leading QA and conversational development"),
         ("Pitch Wars", "Creator & Solo Developer · Mar 2026–present",
          "Built a full fantasy football manager game end-to-end: logic, backend, infra, and design, solo · pitch-wars.com"),
         ("Albrecht Indutherm GmbH", "IT Administrator (Freelance) · Feb 2025–present",
