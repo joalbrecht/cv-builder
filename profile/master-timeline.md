@@ -31,6 +31,8 @@
 - On-call engineer on 24/7 rotation
 - Growing DevOps responsibilities via AWS CloudFormation
 - Delivered internal presentations and knowledge sharing sessions at conferences and internal forums
+- Early adopter of agentic AI development workflows within the team, significantly increasing personal output and delivery velocity
+- Onboarded team members on effective AI-assisted development practices — optimizing prompt efficiency, reducing token overhead, and maintaining output quality — enabling measurable time savings across the team
 
 ### Data Engineer
 **scoutbee** | Jun 2023 – Feb 2026 (2 yrs 9 mos)
